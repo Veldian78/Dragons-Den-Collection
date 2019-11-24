@@ -41,7 +41,7 @@ Stat / cvar comparison operators:
   	</buff>
   </append>
 
-  <append xpath="/buffs/buff[@name='buffStatusCheck']/effect_group">
+  <append xpath="/buffs[@name='buffStatusCheck']/effect_group">
     <triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="Go Hungry">
       <requirement name="PlayerLevel" target="self" operation="GTE" value="20" />
     </triggered_effect>
