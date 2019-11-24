@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<configs>
+	
+	<append xpath="/item_modifiers">
+	<!-- Mod modifiers -->
+	
+
+	<item_modifier name="Chameleon Fabric" installable_tags="armor" modifier_tags="stealth" type="attachment">
+		<property name="UnlockedBy" value="modArmorAdvancedMuffledConnectorsSchematic"/>
+		<property name="CustomIcon" value="GameModificationFabricChameleon"/>
+		<property name="DisplayType" value="modNoiseReduction"/>
+		<property name="Material" value="Msteel"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="NoiseMultiplier" operation="perc_add" value="-.80"/><display_value name="dNoiseMultiplier" value="-.80"/>
+		</effect_group>
+	</item_modifier>
+
+</append>
+
+</configs>

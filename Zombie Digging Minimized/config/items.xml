@@ -1,0 +1,6 @@
+<configs>
+	<append xpath="/items/item[contains(@name, 'Zombie')]/effect_group">
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.99" tags="earth"/>
+	</append>
+</configs>
+

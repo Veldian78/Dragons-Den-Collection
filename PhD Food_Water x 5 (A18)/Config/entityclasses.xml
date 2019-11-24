@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configs>
+
+	<!-- how fast lose water when stam regen - default 0.06 -->
+	<set xpath="entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='WaterLossPerHealthPointGained']/@value">0.3</set>
+	<!-- how fast lose water when stam regen - default 0.00453 -->
+	<set xpath="entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='WaterLossPerStaminaPointGained']/@value">0.02265</set>
+
+	<!-- how fast lose food when stam regen - default 0.00408 -->
+	<set xpath="entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='StaminaLossMaxMult']/@value">0.0204</set>
+	
+</configs>	

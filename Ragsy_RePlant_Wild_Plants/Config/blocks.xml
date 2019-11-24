@@ -1,0 +1,57 @@
+<Ragsy_RePlant_Wild_Plants>
+
+		<!-- Plants when hit will auto replant even POI Plants--> 
+			
+	<append xpath="/blocks/block[@name='plantedChrysanthemum3Harvest']">
+	<property name="DowngradeBlock" value="plantedChrysanthemum1"/>
+	</append>
+	
+	<append xpath="/blocks/block[@name='plantedCotton3Harvest']">
+	<property name="DowngradeBlock" value="plantedCotton1"/>
+	</append>
+	
+	<append xpath="/blocks/block[@name='plantedGoldenrod3Harvest']">
+	<property name="DowngradeBlock" value="plantedGoldenrod1"/>
+	</append>
+	
+	<append xpath="/blocks/block[@name='plantedHop3Harvest']">
+	<property name="DowngradeBlock" value="plantedHop1"/>
+	</append>
+	
+	<append xpath="/blocks/block[@name='plantedYucca3Harvest']">
+	<property name="DowngradeBlock" value="plantedYucca1"/>
+	</append>
+	
+	<append xpath="/blocks/block[@name='plantedAloe3Harvest']">
+	<property name="DowngradeBlock" value="plantedAloe1"/>
+	</append>
+	
+	<append xpath="/blocks/block[@name='plantedBlueberry3Harvest']">
+	<property name="DowngradeBlock" value="plantedBlueberry1"/>
+	</append>
+	
+	<append xpath="/blocks/block[@name='plantedPotato3Harvest']">
+	<property name="DowngradeBlock" value="plantedPotato1"/>
+	</append>
+	
+	<append xpath="/blocks/block[@name='plantedCorn3Harvest']">
+	<property name="DowngradeBlock" value="plantedCorn1"/>
+	</append>
+	
+	<append xpath="/blocks/block[@name='plantedGraceCorn3Harvest']">
+	<property name="DowngradeBlock" value="plantedGraceCorn1"/>
+	</append>
+	
+	<append xpath="/blocks/block[@name='plantedSnowberry3Harvest']">
+	<property name="DowngradeBlock" value="plantedSnowberry1"/>
+	</append>
+	
+	<append xpath="/blocks/block[@name='plantedMushroom3Harvest']">
+	<property name="DowngradeBlock" value="plantedMushroom1"/>
+	</append>
+	
+	<append xpath="/blocks/block[@name='plantedCoffee3Harvest']">
+	<property name="DowngradeBlock" value="plantedCoffee1"/>
+	</append>
+	
+</Ragsy_RePlant_Wild_Plants>

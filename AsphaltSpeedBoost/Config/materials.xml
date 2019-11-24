@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<configs>
+	<!-- duplicate Mconcrete adding speed factor -->
+	<append xpath="/materials">
+		<material id="SpAsphalt">
+			<property name="damage_category" value="stone"/>
+			<property name="surface_category" value="stone"/>
+			<property name="forge_category" value="stone"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="stone"/>
+			<property name="stability_glue" value="120"/>
+			<property name="Mass" type="int" value="10"/>
+			<property name="explosionresistance" value="1.2"/>
+			<property name="MaxDamage" value="5000"/>
+			<property name="Experience" value="4"/>
+			<property name="movement_factor" value="1.1"/>
+		</material>
+	</append>	
+</configs>

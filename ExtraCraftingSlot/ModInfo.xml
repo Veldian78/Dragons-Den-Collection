@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <ModInfo>
+        <Name value="ExtraCraftingSlot" />
+        <Description value="This modlet adds a 5th slot to all the crafting queues in the game: inventory, forge, workbench, etc." />
+        <Author value="Turbero" />
+        <Version value="1.0" />
+    </ModInfo>
+</xml>

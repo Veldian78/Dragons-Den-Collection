@@ -1,0 +1,10 @@
+<Br3n0k>
+	<append xpath="/recipes">
+		<recipe name="scrapIronLogSpike4" count="1">
+			<ingredient name="resourceScrapIron" count="50"/>
+		</recipe>
+		<recipe name="woodLogSpike1" count="1">
+			<ingredient name="resourceWood" count="25"/>
+		</recipe>
+	</append>
+</Br3n0k>

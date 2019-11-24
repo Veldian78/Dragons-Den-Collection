@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="EvilElectic" />
+		<Description value="This modlet cranks up the duration and health damage for electric weapons."/>
+		<Author value="Lucifer66" />
+		<Version value="1.0" />
+		</ModInfo>
+</xml>

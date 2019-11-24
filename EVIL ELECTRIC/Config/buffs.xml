@@ -1,0 +1,29 @@
+<config>
+	<append xpath="/buffs">
+		<buff name="buffShocked" description_key="buffShockedDesc" tooltip_key="buffShockedTooltip" icon="ui_game_symbol_electric_power" name_key="buffShockedName" icon_color="255,0,0">
+			<damage_type value="electrical"/>
+			<stack_type value="replace"/>
+			<duration value="50"/>
+			<effect_group>
+				<passive_effect name="HealthChangeOT" operation="base_add" value="-12"/>
+				<passive_effect name="RunSpeed" operation="perc_subtract" value="0.9,0" duration="0,3.2"/>
+				<passive_effect name="WalkSpeed" operation="perc_subtract" value="0.9,0" duration="0,3.2"/>
+				<passive_effect name="CrouchSpeed" operation="perc_subtract" value="0.9,0" duration="0,3.2"/>
+				<passive_effect name="JumpStrength" operation="perc_subtract" value="0.9,0" duration="0,3.2"/>
+
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_electric_shock" local_offset="0,0.75,0"/>
+				<triggered_effect trigger="onSelfEnteredGame" action="AttachParticleEffectToEntity" particle="p_electric_shock" local_offset="0,0.75,0"/>
+
+				<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_electric_shock" />
+
+				<triggered_effect trigger="onSelfBuffFinish" action="RemoveParticleEffectFromEntity" particle="p_electric_shock" />
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="p_electric_shock" />
+				<triggered_effect trigger="onSelfLeaveGame" action="RemoveParticleEffectFromEntity" particle="p_electric_shock" />
+
+				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" target="self" sound="electric_fence_impact" />
+				<triggered_effect trigger="onSelfBuffRemove" action="FadeOutSound" target="self" sound="electric_fence_impact" />
+				<triggered_effect trigger="onSelfLeaveGame" action="StopSound" target="self" sound="electric_fence_impact" />
+			</effect_group>
+		</buff>
+	</append>
+</config>

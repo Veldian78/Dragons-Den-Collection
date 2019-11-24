@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<configs>
+	<!-- reassign asphalt material to new SpAsphalt -->
+	<set xpath="/blocks/block[@name='terrAsphalt']/property[@name='Material']/@value">SpAsphalt</set>	
+</configs>

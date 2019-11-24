@@ -1,0 +1,13 @@
+<configs>
+		<!-- Increase precious metal generation -->
+	<set xpath="/worldgeneration/biomes/biome/subbiome/layers/layer/resource[@blockname='terrOreSilver']/@prob">0.00600</set> <!-- Default: 0.00030 -->
+	<set xpath="/worldgeneration/biomes/biome/subbiome/layers/layer/resource[@blockname='terrOreGold']/@prob">0.00400</set>   <!-- Default: 0.00020 -->
+	<set xpath="/worldgeneration/biomes/biome/subbiome/layers/layer/resource[@blockname='terrOreDiamond']/@prob">0.0300</set> <!-- Default: 0.00010 -->
+
+	<set xpath="/worldgeneration/biomes/biome/layers/layer/resource[@blockname='terrOreSilver']/@prob">0.00300</set>  <!-- Default: 0.00030 -->
+	<set xpath="/worldgeneration/biomes/biome/layers/layer/resource[@blockname='terrOreGold']/@prob">0.00200</set>    <!-- Default: 0.00020 -->
+	<set xpath="/worldgeneration/biomes/biome/layers/layer/resource[@blockname='terrOreDiamond']/@prob">0.0100</set>  <!-- Default: 0.00010 -->
+
+	
+</configs>	
+

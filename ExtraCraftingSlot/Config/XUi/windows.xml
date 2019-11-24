@@ -1,0 +1,5 @@
+<configs>
+	<set xpath="/windows/window[@name='windowCraftingQueue']/rect[@controller='CraftingQueue']/@pos">18,0</set>
+	<set xpath="/windows/window[@name='windowCraftingQueue']/rect[@controller='CraftingQueue']/@width">378</set>
+	<set xpath="/windows/window[@name='windowCraftingQueue']/rect[@controller='CraftingQueue']/grid[@name='queue']/@cols">5</set>
+</configs>
