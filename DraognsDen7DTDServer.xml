@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Servers>
+	<ServerGroup Name="Dragons Den Mod Collection" >
+	
+		<Server Name="Dragons Den 7DTD" >
+			<Description>Dragons Den 7DTD Mods and Modlet Collection Is not my work, these are mods and changes From other people to Enhance/change and alot of QoL stuff for my server. I take no Credit with any of these mods other then minor changes to suit my servers needs.
+
+For all update Information and future planned improvements please follow us in Discord at https://discord.gg/M2S97VT
+And don"t forget to watch us on Twitch at https://twitch.tv/veldian78		
+			
+			</Description>
+			<DownloadMode>Clone</DownloadMode>
+			<Version>Latest</Version>
+			<Downloads>
+				<Download>https://github.com/Veldian78/mods.git</Download>
+			</Downloads>
+		</Server>
+	
+	</ServerGroup>
+</Servers>
